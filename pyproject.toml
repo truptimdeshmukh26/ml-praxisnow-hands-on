@@ -1,0 +1,15 @@
+[project]
+name = "aipm-hands-on-ml-praxisnow"
+version = "0.1.0"
+description = "Hands-on ML for AI Product Managers: predict and act on appointment no-shows (PraxisNow case)"
+requires-python = ">=3.13"
+dependencies = [
+    "matplotlib>=3.10",
+    "pandas>=2.2",
+    "scikit-learn>=1.9.0",
+]
+
+[dependency-groups]
+dev = [
+    "ipykernel>=7.3.0",
+]
